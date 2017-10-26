@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Take A Leap</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-10-23T06:56:38.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>张俊</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2017 review</title>
+    <link href="http://yoursite.com/2017/10/23/restart_in_2017/"/>
+    <id>http://yoursite.com/2017/10/23/restart_in_2017/</id>
+    <published>2017-10-23T04:09:37.000Z</published>
+    <updated>2017-10-23T06:56:38.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;隔了大半年多了，才又开始写博客，真的是拖延症患者。&lt;/p&gt;
+&lt;p&gt;先罗列一下今年干的事&lt;/p&gt;
+&lt;h2 id=&quot;减肥&quot;&gt;&lt;a href=&quot;#减肥&quot; class=&quot;headerlink&quot; title=&quot;减肥&quot;&gt;&lt;/a&gt;减肥&lt;/h2&gt;&lt;p&gt;从3月至7月底，从174瘦到了153。
+    
+    </summary>
+    
+      <category term="review" scheme="http://yoursite.com/categories/review/"/>
+    
+    
+      <category term="review" scheme="http://yoursite.com/tags/review/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Get Started</title>
+    <link href="http://yoursite.com/2017/01/06/hello-world/"/>
+    <id>http://yoursite.com/2017/01/06/hello-world/</id>
+    <published>2017-01-06T07:49:27.000Z</published>
+    <updated>2017-01-13T11:25:15.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是第一篇文章，主要描述一下这个博客的定位、目标和计划&lt;/p&gt;
+&lt;h2 id=&quot;目标&quot;&gt;&lt;a href=&quot;#目标&quot; class=&quot;headerlink&quot; title=&quot;目标&quot;&gt;&lt;/a&gt;目标&lt;/h2&gt;&lt;p&gt;一个记录和分享个人所学所思所想的地方&lt;/p&gt;
+&lt;h3 id=&quot;记录&quot;&gt;
+    
+    </summary>
+    
+      <category term="description" scheme="http://yoursite.com/categories/description/"/>
+    
+    
+      <category term="description" scheme="http://yoursite.com/tags/description/"/>
+    
+  </entry>
+  
+</feed>
