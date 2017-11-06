@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-11-06T09:22:45.000Z</updated>
+  <updated>2017-11-06T09:32:27.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>4. Longest Palindromic Substring</title>
-    <link href="http://yoursite.com/2017/11/06/Leetcode-Solution-4-Longest-Palindromic-Substring/"/>
-    <id>http://yoursite.com/2017/11/06/Leetcode-Solution-4-Longest-Palindromic-Substring/</id>
+    <title>5. Longest Palindromic Substring</title>
+    <link href="http://yoursite.com/2017/11/06/Leetcode-Solution-5-Longest-Palindromic-Substring/"/>
+    <id>http://yoursite.com/2017/11/06/Leetcode-Solution-5-Longest-Palindromic-Substring/</id>
     <published>2017-11-06T08:33:47.000Z</published>
-    <updated>2017-11-06T09:22:45.000Z</updated>
+    <updated>2017-11-06T09:32:27.000Z</updated>
     
     <summary type="html">
     

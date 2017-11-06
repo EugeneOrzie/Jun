@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Leetcode,String Process,Dynamic Programing," />
 
 
 
@@ -86,15 +86,25 @@
 
 
 
-<meta name="description" content="一个人的命运，当然要靠自我奋斗，但是也要考虑历史的进程">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Take A Leap">
-<meta property="og:url" content="http://yoursite.com/archives/2017/index.html">
+<meta name="description" content="Given a string s, find the longest palindromic substring in s，the maximum length of s is 1000.
+
+Brute force
+ Search the length and start, so we could calculate end by the formula: end     = (start + l">
+<meta property="og:type" content="article">
+<meta property="og:title" content="5. Longest Palindromic Substring">
+<meta property="og:url" content="http://yoursite.com/2017/11/06/Leetcode-Solution-5-Longest-Palindromic-Substring/index.html">
 <meta property="og:site_name" content="Take A Leap">
-<meta property="og:description" content="一个人的命运，当然要靠自我奋斗，但是也要考虑历史的进程">
+<meta property="og:description" content="Given a string s, find the longest palindromic substring in s，the maximum length of s is 1000.
+
+Brute force
+ Search the length and start, so we could calculate end by the formula: end     = (start + l">
+<meta property="og:updated_time" content="2017-11-06T09:32:27.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Take A Leap">
-<meta name="twitter:description" content="一个人的命运，当然要靠自我奋斗，但是也要考虑历史的进程">
+<meta name="twitter:title" content="5. Longest Palindromic Substring">
+<meta name="twitter:description" content="Given a string s, find the longest palindromic substring in s，the maximum length of s is 1000.
+
+Brute force
+ Search the length and start, so we could calculate end by the formula: end     = (start + l">
 
 
 
@@ -122,13 +132,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/archives/2017/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/11/06/Leetcode-Solution-5-Longest-Palindromic-Substring/"/>
 
 
 
 
 
-  <title> 归档 | Take A Leap </title>
+  <title> 5. Longest Palindromic Substring | Take A Leap </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -149,7 +159,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  page-archive  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -251,251 +261,211 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
-
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 6 篇日志。 继续努力。
-    </span>
-
+  <div id="posts" class="posts-expand">
     
-
-      
-      
-      
-
-      
-        
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2017">2017</h2>
-        </div>
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2017/11/06/Leetcode-Solution-5-Longest-Palindromic-Substring/" itemprop="url">
-              
-                <span itemprop="name">5. Longest Palindromic Substring</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-11-06T16:33:47+08:00"
-              content="2017-11-06" >
-          11-06
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2017/11/06/Leetcode-Solution-Init/" itemprop="url">
-              
-                <span itemprop="name">0. Leetcode Solution Preview</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-11-06T16:24:04+08:00"
-              content="2017-11-06" >
-          11-06
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2017/11/06/Thinking-Record-Break-Comfortable-Zone/" itemprop="url">
-              
-                <span itemprop="name">2017-11-06 Break Comfortable Zone</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-11-06T11:44:08+08:00"
-              content="2017-11-06" >
-          11-06
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2017/11/05/Thinking-Record/" itemprop="url">
-              
-                <span itemprop="name">2017-11-05 Trivial Thinking</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-11-05T20:55:08+08:00"
-              content="2017-11-05" >
-          11-05
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2017/10/26/Review-Restart-In-2017/" itemprop="url">
-              
-                <span itemprop="name">2017 Review</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-10-26T15:17:09+08:00"
-              content="2017-10-26" >
-          10-26
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2017/01/20/Description-Hello-World/" itemprop="url">
-              
-                <span itemprop="name">Get Started</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-01-20T16:24:04+08:00"
-              content="2017-01-20" >
-          01-20
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-  </section>
 
   
 
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/06/Leetcode-Solution-5-Longest-Palindromic-Substring/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="张俊">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/uploads/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Take A Leap">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Take A Leap" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                5. Longest Palindromic Substring
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-11-06T16:33:47+08:00">
+                2017-11-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Leetcode-Solution/" itemprop="url" rel="index">
+                    <span itemprop="name">Leetcode Solution</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>Given a string s, find the longest palindromic substring in s，the maximum length of s is 1000.</p>
+<ol>
+<li><p>Brute force</p>
+<p> Search the length and start, so we could calculate end by the formula: end     = (start + length - 1). Then judge whether S[start : end] is a palindromic.</p>
+<p> Time complexity is O(n3) and space complexity is O(n), which is so terrible!</p>
+</li>
+<li><p>optimize</p>
+<p> It is obvious that we have done a lot of work which is unnecessary in Brute Force Solution. For example, for the judgement of s[i :j ] and s[i : j + 1], we loop from i to j for two times! When we judge whether s[i : j] (j - i &gt; 1) is a palindromic string, we could easily get the result by s[i + 1: j - 1] which could also be calculated by a shorter substring, then the recursive formular appears.</p>
+<p> Assume is_ palindromic[i : j] is true when s[i : j] is a palindrome and is false vice versa. We could calculate this two-dimensional array first. </p>
+<pre><code>1. is_palindromic[i : j] = true; for (i == j)
+2. is_palindromic[i : j] = s[i] == s[j]; for (i + 1 == j)
+3. is_palindromic[i : j] = (is_ palindromic[i + 1: j - 1] &amp;&amp; s[i] == s[j]); for (i + 2 &lt;= j)
+</code></pre><p> Then, we just need to find is_ palindromic[i : j] is true and j - i + 1 is the largest.</p>
+<p> Time complexity is O(n2) and space complexity is O(n2). This result is acceptable.</p>
+</li>
+</ol>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/uploads/weixin_pay.jpg" alt="张俊 WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/uploads/ali_pay.jpg" alt="张俊 Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Leetcode/" rel="tag"># Leetcode</a>
+          
+            <a href="/tags/String-Process/" rel="tag"># String Process</a>
+          
+            <a href="/tags/Dynamic-Programing/" rel="tag"># Dynamic Programing</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/11/06/Leetcode-Solution-Init/" rel="next" title="0. Leetcode Solution Preview">
+                <i class="fa fa-chevron-left"></i> 0. Leetcode Solution Preview
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
           
           </div>
@@ -503,6 +473,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -728,11 +702,9 @@
   
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
 
 
   
@@ -765,6 +737,10 @@
 
   
 
+  
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid="></script>
+      <!-- UY END -->
   
 
 
