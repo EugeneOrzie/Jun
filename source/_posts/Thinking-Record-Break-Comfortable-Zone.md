@@ -1,5 +1,5 @@
 ---
-title: 2017-11-06 break comfortable zone
+title: 2017-11-06 Break Comfortable Zone
 tags: 
 	- Thinking Record
 	- Time Management

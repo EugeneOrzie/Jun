@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-11-06T05:51:43.000Z</updated>
+  <updated>2017-11-06T09:22:45.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,58 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>2017-11-06 break comfortable zone</title>
-    <link href="http://yoursite.com/2017/11/06/break_comfortable_zone/"/>
-    <id>http://yoursite.com/2017/11/06/break_comfortable_zone/</id>
+    <title>4. Longest Palindromic Substring</title>
+    <link href="http://yoursite.com/2017/11/06/Leetcode-Solution-4-Longest-Palindromic-Substring/"/>
+    <id>http://yoursite.com/2017/11/06/Leetcode-Solution-4-Longest-Palindromic-Substring/</id>
+    <published>2017-11-06T08:33:47.000Z</published>
+    <updated>2017-11-06T09:22:45.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Given a string s, find the longest palindromic substring in s，the maximum length of s is 1000.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Brute force&lt;/p&gt;
+&lt;p&gt; Search
+    
+    </summary>
+    
+      <category term="Leetcode Solution" scheme="http://yoursite.com/categories/Leetcode-Solution/"/>
+    
+    
+      <category term="Leetcode" scheme="http://yoursite.com/tags/Leetcode/"/>
+    
+      <category term="String Process" scheme="http://yoursite.com/tags/String-Process/"/>
+    
+      <category term="Dynamic Programing" scheme="http://yoursite.com/tags/Dynamic-Programing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>0. Leetcode Solution Preview</title>
+    <link href="http://yoursite.com/2017/11/06/Leetcode-Solution-Init/"/>
+    <id>http://yoursite.com/2017/11/06/Leetcode-Solution-Init/</id>
+    <published>2017-11-06T08:24:04.000Z</published>
+    <updated>2017-11-06T09:18:34.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;In this topic, I will record the solution of leetcode problems. I have done a lot of online judgement problems, but I did not record the 
+    
+    </summary>
+    
+      <category term="Leetcode Solution" scheme="http://yoursite.com/categories/Leetcode-Solution/"/>
+    
+    
+      <category term="Leetcode" scheme="http://yoursite.com/tags/Leetcode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2017-11-06 Break Comfortable Zone</title>
+    <link href="http://yoursite.com/2017/11/06/Thinking-Record-Break-Comfortable-Zone/"/>
+    <id>http://yoursite.com/2017/11/06/Thinking-Record-Break-Comfortable-Zone/</id>
     <published>2017-11-06T03:44:08.000Z</published>
-    <updated>2017-11-06T05:51:43.000Z</updated>
+    <updated>2017-11-06T09:21:35.000Z</updated>
     
     <summary type="html">
     
@@ -40,11 +87,11 @@
   </entry>
   
   <entry>
-    <title>2017-11-05 trivial thinking</title>
-    <link href="http://yoursite.com/2017/11/05/thinking_record/"/>
-    <id>http://yoursite.com/2017/11/05/thinking_record/</id>
+    <title>2017-11-05 Trivial Thinking</title>
+    <link href="http://yoursite.com/2017/11/05/Thinking-Record/"/>
+    <id>http://yoursite.com/2017/11/05/Thinking-Record/</id>
     <published>2017-11-05T12:55:08.000Z</published>
-    <updated>2017-11-05T16:08:36.000Z</updated>
+    <updated>2017-11-06T09:18:53.000Z</updated>
     
     <summary type="html">
     
@@ -60,33 +107,11 @@
   </entry>
   
   <entry>
-    <title>Get Started</title>
-    <link href="http://yoursite.com/2017/10/26/hello-world/"/>
-    <id>http://yoursite.com/2017/10/26/hello-world/</id>
+    <title>2017 Review</title>
+    <link href="http://yoursite.com/2017/10/26/Review-Restart-In-2017/"/>
+    <id>http://yoursite.com/2017/10/26/Review-Restart-In-2017/</id>
     <published>2017-10-26T07:17:09.000Z</published>
-    <updated>2017-10-26T07:17:09.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这是第一篇文章，主要描述一下这个博客的定位、目标和计划&lt;/p&gt;
-&lt;h2 id=&quot;目标&quot;&gt;&lt;a href=&quot;#目标&quot; class=&quot;headerlink&quot; title=&quot;目标&quot;&gt;&lt;/a&gt;目标&lt;/h2&gt;&lt;p&gt;一个记录和分享个人所学所思所想的地方&lt;/p&gt;
-&lt;h3 id=&quot;记录&quot;&gt;
-    
-    </summary>
-    
-      <category term="description" scheme="http://yoursite.com/categories/description/"/>
-    
-    
-      <category term="description" scheme="http://yoursite.com/tags/description/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2017 review</title>
-    <link href="http://yoursite.com/2017/10/26/restart_in_2017/"/>
-    <id>http://yoursite.com/2017/10/26/restart_in_2017/</id>
-    <published>2017-10-26T07:17:09.000Z</published>
-    <updated>2017-10-26T07:17:09.000Z</updated>
+    <updated>2017-11-06T09:26:41.000Z</updated>
     
     <summary type="html">
     
@@ -96,10 +121,32 @@
     
     </summary>
     
-      <category term="review" scheme="http://yoursite.com/categories/review/"/>
+      <category term="Review" scheme="http://yoursite.com/categories/Review/"/>
     
     
-      <category term="review" scheme="http://yoursite.com/tags/review/"/>
+      <category term="Review" scheme="http://yoursite.com/tags/Review/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Get Started</title>
+    <link href="http://yoursite.com/2017/01/20/Description-Hello-World/"/>
+    <id>http://yoursite.com/2017/01/20/Description-Hello-World/</id>
+    <published>2017-01-20T08:24:04.000Z</published>
+    <updated>2017-11-06T09:26:50.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是第一篇文章，主要描述一下这个博客的定位、目标和计划&lt;/p&gt;
+&lt;h2 id=&quot;目标&quot;&gt;&lt;a href=&quot;#目标&quot; class=&quot;headerlink&quot; title=&quot;目标&quot;&gt;&lt;/a&gt;目标&lt;/h2&gt;&lt;p&gt;一个记录和分享个人所学所思所想的地方&lt;/p&gt;
+&lt;h3 id=&quot;记录&quot;&gt;
+    
+    </summary>
+    
+      <category term="Description" scheme="http://yoursite.com/categories/Description/"/>
+    
+    
+      <category term="Description" scheme="http://yoursite.com/tags/Description/"/>
     
   </entry>
   

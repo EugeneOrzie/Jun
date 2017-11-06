@@ -1,7 +1,7 @@
 ---
-title: 2017 review
-tags: review
-categories: review
+title: 2017 Review
+tags: Review
+categories: Review
 ---
 
 隔了大半年多了，才又开始写博客，真的是拖延症患者。

@@ -1,7 +1,8 @@
 ---
 title: Get Started
-tags: description
-categories: description
+date: 2017-01-20 16:24:04
+tags: Description
+categories: Description
 ---
 
 这是第一篇文章，主要描述一下这个博客的定位、目标和计划

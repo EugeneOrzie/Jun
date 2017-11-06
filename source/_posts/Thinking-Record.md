@@ -1,5 +1,5 @@
 ---
-title: 2017-11-05 trivial thinking
+title: 2017-11-05 Trivial Thinking
 tags: Thinking Record
 categories: Thinking Record
 ---
