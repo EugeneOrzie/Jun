@@ -98,7 +98,7 @@ Brute force
 
 Brute force
  Search the length and start, so we could calculate end by the formula: end     = (start + l">
-<meta property="og:updated_time" content="2017-11-06T09:32:27.000Z">
+<meta property="og:updated_time" content="2017-11-06T15:01:41.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="5. Longest Palindromic Substring">
 <meta name="twitter:description" content="Given a string s, find the longest palindromic substring in s，the maximum length of s is 1000.
@@ -375,12 +375,12 @@ Brute force
 <p> Time complexity is O(n3) and space complexity is O(n), which is so terrible!</p>
 </li>
 <li><p>optimize</p>
-<p> It is obvious that we have done a lot of work which is unnecessary in Brute Force Solution. For example, for the judgement of s[i :j ] and s[i : j + 1], we loop from i to j for two times! When we judge whether s[i : j] (j - i &gt; 1) is a palindromic string, we could easily get the result by s[i + 1: j - 1] which could also be calculated by a shorter substring, then the recursive formular appears.</p>
+<p> It is obvious that we have done a lot of work which is unnecessary in Brute Force Solution. For example, for the judgement of s[i :j ] and s[i : j + 1], we loop from i to j for two times! When we judge whether s[i : j] (j - i &gt; 1) is a palindromic string, we could easily get the result by s[i + 1: j - 1] which could also be calculated by a shorter substring, then the recursive formula appears.</p>
 <p> Assume is_ palindromic[i : j] is true when s[i : j] is a palindrome and is false vice versa. We could calculate this two-dimensional array first. </p>
 <pre><code>1. is_palindromic[i : j] = true; for (i == j)
 2. is_palindromic[i : j] = s[i] == s[j]; for (i + 1 == j)
 3. is_palindromic[i : j] = (is_ palindromic[i + 1: j - 1] &amp;&amp; s[i] == s[j]); for (i + 2 &lt;= j)
-</code></pre><p> Then, we just need to find is_ palindromic[i : j] is true and j - i + 1 is the largest.</p>
+</code></pre><p> Then, we just need to find maximum length (length = j - i + 1) from is_palindromic which meets is_palindromic[i,j]] == true.</p>
 <p> Time complexity is O(n2) and space complexity is O(n2). This result is acceptable.</p>
 </li>
 </ol>

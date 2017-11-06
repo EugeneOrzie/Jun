@@ -19,7 +19,7 @@ Given a string s, find the longest palindromic substring in s，the maximum leng
 	
 2. optimize
 
-	It is obvious that we have done a lot of work which is unnecessary in Brute Force Solution. For example, for the judgement of s[i :j ] and s[i : j + 1], we loop from i to j for two times! When we judge whether s[i : j] (j - i > 1) is a palindromic string, we could easily get the result by s[i + 1: j - 1] which could also be calculated by a shorter substring, then the recursive formular appears.
+	It is obvious that we have done a lot of work which is unnecessary in Brute Force Solution. For example, for the judgement of s[i :j ] and s[i : j + 1], we loop from i to j for two times! When we judge whether s[i : j] (j - i > 1) is a palindromic string, we could easily get the result by s[i + 1: j - 1] which could also be calculated by a shorter substring, then the recursive formula appears.
 	
 	Assume is_ palindromic[i : j] is true when s[i : j] is a palindrome and is false vice versa. We could calculate this two-dimensional array first. 
 	
@@ -27,6 +27,6 @@ Given a string s, find the longest palindromic substring in s，the maximum leng
 		2. is_palindromic[i : j] = s[i] == s[j]; for (i + 1 == j)
 		3. is_palindromic[i : j] = (is_ palindromic[i + 1: j - 1] && s[i] == s[j]); for (i + 2 <= j)
 	
-	Then, we just need to find is_ palindromic[i : j] is true and j - i + 1 is the largest.
+	Then, we just need to find maximum length (length = j - i + 1) from is_palindromic which meets is_palindromic[i,j]] == true.
 
 	Time complexity is O(n2) and space complexity is O(n2). This result is acceptable.
