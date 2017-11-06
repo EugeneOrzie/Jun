@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-10-26T07:17:09.000Z</updated>
+  <updated>2017-11-06T05:51:43.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2017-11-06 break comfortable zone</title>
+    <link href="http://yoursite.com/2017/11/06/break_comfortable_zone/"/>
+    <id>http://yoursite.com/2017/11/06/break_comfortable_zone/</id>
+    <published>2017-11-06T03:44:08.000Z</published>
+    <updated>2017-11-06T05:51:43.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;舒适区指的是感觉非常轻松自在的那个抽象区域，比如做擅长的事，解决已知的问题，做这些事的时候都会很惬意自在，内心很有安全感。当做一件完全不熟悉的事或者解决完全未知的问题，我们的内心便开始不安，恐慌开始蔓延，这块区域称作恐慌区。在舒适区和恐慌区之间，还存在着第三种区域，叫做学习
+    
+    </summary>
+    
+      <category term="Thinking Record" scheme="http://yoursite.com/categories/Thinking-Record/"/>
+    
+    
+      <category term="Thinking Record" scheme="http://yoursite.com/tags/Thinking-Record/"/>
+    
+      <category term="Time Management" scheme="http://yoursite.com/tags/Time-Management/"/>
+    
+      <category term="Comfortable Zone" scheme="http://yoursite.com/tags/Comfortable-Zone/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2017-11-05 trivial thinking</title>
+    <link href="http://yoursite.com/2017/11/05/thinking_record/"/>
+    <id>http://yoursite.com/2017/11/05/thinking_record/</id>
+    <published>2017-11-05T12:55:08.000Z</published>
+    <updated>2017-11-05T16:08:36.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今年我尝试列了很多的计划，有宏观到练好英语、读一些有用的书这种抽象目标的，也有具体到一天要干这些那些事，每件事大约花费多少时间的。在宏观的计划上，我确实取得了一定的成就，但是在微观的计划上，却几乎失败的，往往都不能如期完成，计划如果制定得太紧，就无法完成规定任务，然后延期；
+    
+    </summary>
+    
+      <category term="Thinking Record" scheme="http://yoursite.com/categories/Thinking-Record/"/>
+    
+    
+      <category term="Thinking Record" scheme="http://yoursite.com/tags/Thinking-Record/"/>
+    
+  </entry>
   
   <entry>
     <title>Get Started</title>
