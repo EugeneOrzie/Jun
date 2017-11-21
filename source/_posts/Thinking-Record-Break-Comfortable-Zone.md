@@ -1,5 +1,6 @@
 ---
 title: 2017-11-06 Step Out of Comfortable Zone
+date: 2017-11-06 11:57:20
 tags: 
 	- Thinking Record
 	- Time Management
