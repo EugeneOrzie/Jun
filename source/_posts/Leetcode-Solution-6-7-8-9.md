@@ -1,9 +1,10 @@
 ---
-title: 6. 7. 8. Leetcode Solution
+title: 6. 7. 8. 9. Leetcode Solution
 date: 2017-11-22 17:45:26
 categories: Leetcode Solution
 tags:
 	- Leetcode
+	- String Process
 ---
 
 ## 6. ZigZag Conversion   
@@ -19,3 +20,6 @@ This is a easy problem, so I don't have much to say. Just be careful about the s
 ## 8. String to Integer (atoi)   
 
 It is interesting to implement c function **atoi**. In order to implement a function, it is important to determine the requirements. 
+
+## 9. Palindrome Number
+This question is a easy one. It could reuse the function of problem 7.
